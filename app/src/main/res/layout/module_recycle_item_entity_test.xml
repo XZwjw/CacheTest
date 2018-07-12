@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/module_recycle_item_id"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:hint="@string/test_text"
+        android:gravity="center"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/module_recycle_item_name"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:hint="@string/test_text2"
+        android:gravity="center"
+        android:layout_weight="1"/>
+    <ImageView
+        android:id="@+id/module_recycle_item_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorRecycleItemDividingLine"
+        />
+
+</LinearLayout>
