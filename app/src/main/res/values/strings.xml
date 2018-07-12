@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">CacheTest</string>
     <string name="action_settings">Settings</string>
+    <string name="test_text">为什么用我测试55555555</string>
+    <string name="test_text2">55带我一个</string>
 </resources>
